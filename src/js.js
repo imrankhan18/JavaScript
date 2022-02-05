@@ -24,8 +24,10 @@ function task(){
     document.getElementById(quotient);
     console.log(quotient);
 
-    let myVar = 87;
-    myVar=++myVar;
+    let myVar = 12;
+    myVar=--myVar;
     console.log(myVar);
+
+
 }
 task()
