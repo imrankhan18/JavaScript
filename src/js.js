@@ -13,3 +13,11 @@ function javaS() {
 
 
 }
+//tadsk which is done in freecodecamp
+function task(){
+  
+    const sum = 10 + 10;
+    document.getElementById(sum);
+    console.log(sum);
+}
+task()
