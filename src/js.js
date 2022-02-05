@@ -83,5 +83,9 @@ console.log(myStr1)
 
 var myStr2="Firstline\n\SecondLine\rThirdline";
 console.log(myStr2);
+const myStr3 = "This is the start." + "This is the end."; 
+console.log(myStr3);
+
+
 }
 task();
