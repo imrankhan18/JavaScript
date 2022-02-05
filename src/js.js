@@ -139,6 +139,11 @@ console.log(myArray);
 const myArray2 = [50, 60, 70];
 var myData=myArray2[0];
 console.log(myArray2);
+
+const myData1 = [50, 60, 70];
+myData1[0]=45;
+console.log(myData1);
+
 }
 
 task();
