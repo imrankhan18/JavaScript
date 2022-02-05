@@ -16,8 +16,8 @@ function javaS() {
 //tadsk which is done in freecodecamp
 function task(){
   
-    const sum = 10 + 10;
-    document.getElementById(sum);
-    console.log(sum);
+    const sub = 45- 33;
+    document.getElementById(sub);
+    console.log(sub);
 }
 task()
