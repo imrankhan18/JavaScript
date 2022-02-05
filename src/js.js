@@ -202,3 +202,25 @@ function reusableFunction(){
     num3=num3*5;
     return num3;
     }
+
+   
+// Declare the myGlobal variable below this line
+
+const myGlobal = 10;
+function fun1(){
+   oopsGlobal=5;
+}
+
+// Only change code above this line
+
+function fun2() {//global scope and functions
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
