@@ -109,6 +109,13 @@ const lastName1 = "Lovelace";
 firstLetterOfLastName = lastName1[0];
 console.log(firstLetterOfLastName);
 
+let my = "Jello World";
+
+// Only change code below this line
+my[0]="H"+my;
+my=my.slice(1);
+my="H"+my;
+console.log(my);
 
 }
 
