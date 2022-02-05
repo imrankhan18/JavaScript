@@ -171,6 +171,9 @@ const myArr4 = [["John", 23], ["dog", 3]];
 myArr4.unshift("Happy");
 console.log(myArr4);
 
+var myList = [["Banana", 3], ["Apple", 4], ["Orange", 5], ["Peach", 6], ["Pineaple", 7]];
+console.log(myList);
+
 
 }
 
