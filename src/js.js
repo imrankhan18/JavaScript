@@ -23,5 +23,9 @@ function task(){
     const quotient = 66 / 33;
     document.getElementById(quotient);
     console.log(quotient);
+
+    let myVar = 87;
+    myVar=++myVar;
+    console.log(myVar);
 }
 task()
