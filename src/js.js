@@ -86,6 +86,8 @@ console.log(myStr2);
 const myStr3 = "This is the start." + "This is the end."; 
 console.log(myStr3);
 
-
+let myStr4="This is the first sentence.";
+myStr4+=" This is second sentence."
+console.log(myStr4);
 }
 task();
