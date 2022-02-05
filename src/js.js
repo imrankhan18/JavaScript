@@ -117,6 +117,13 @@ my=my.slice(1);
 my="H"+my;
 console.log(my);
 
+let firstLetterOfLastName1 = "";
+const lastName2 = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName1 = lastName2[0];
+console.log(firstLetterOfLastName1);
+
 }
 
 task();
