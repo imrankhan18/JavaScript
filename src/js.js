@@ -20,5 +20,8 @@ function task(){
     const mul = 45* 33;
     document.getElementById(mul);
     console.log(mul);
+    const quotient = 66 / 33;
+    document.getElementById(quotient);
+    console.log(quotient);
 }
 task()
