@@ -27,6 +27,10 @@ function task(){
     let myVar = 12;
     myVar=--myVar;
     console.log(myVar);
+    
+    const myDecimal = 5.7;
+    console.log(myDecimal);
+
 
 
 }
