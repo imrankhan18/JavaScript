@@ -121,7 +121,7 @@ let lirstLetterOfLastName1 = "";
 const lastName2 = "Lovelace";
 
 // Only change code below this line
-lirstLetterOfLastName1 = lastName2[lastName2.length -1];
+lirstLetterOfLastName1 = lastName2[lastName2.length -2];
 console.log(lirstLetterOfLastName1);
 
 }
