@@ -174,7 +174,20 @@ console.log(myArr4);
 var myList = [["Banana", 3], ["Apple", 4], ["Orange", 5], ["Peach", 6], ["Pineaple", 7]];
 console.log(myList);
 
+function reusableFunction(){
+    str="Hi World";
+    console.log()
+  }
+  reusableFunction()
+
+
 
 }
 
 task();
+
+function reusableFunction(){
+    str="Hi World";
+    console.log(str);
+  }
+  reusableFunction()
