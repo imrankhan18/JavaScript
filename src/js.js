@@ -74,5 +74,8 @@ b3 /=  4;
 c3 /=  11;
 
 console.log(a3,b3,c3);
+
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+console.log(myStr)
 }
 task();
