@@ -162,6 +162,10 @@ const myArray6 = [["John", 23], ["cat", 2]];
 removedFromMyArray=myArray6.pop();
 console.log(removedFromMyArray);
 
+const myArr3 = [["John", 23], ["dog", 3]];
+const removedFromMyArr3=myArr3.shift();
+console.log(removedFromMyArr3);
+
 }
 
 task();
