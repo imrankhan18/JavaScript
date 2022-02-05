@@ -3,5 +3,6 @@ function javaS() {
     console.log("result"+result);
     var myName;
     myName=7;
+    var b;
 
 }
