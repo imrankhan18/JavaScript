@@ -1,5 +1,4 @@
 function javaS() {
-<<<<<<< HEAD
   //document.getElementById("result").innerHTML="Print"+result ;
   console.log("result" + result);
   let num = document.getElementById("value").value;
@@ -10,21 +9,6 @@ function javaS() {
   let fullName = myFirstName + myLastName;
   document.getElementById("str").innerHTML = fullName;
   console.log(str);
-=======
-    //document.getElementById("result").innerHTML="Print"+result ;
-    console.log("result"+result);
-    let num=document.getElementById('value').value;
-    var multiply= num*10;
-    document.getElementById('result').innerHTML=multiply;
-    const myFirstName=('Imran')
-    let myLastName=('Khan')//give error because when we use let , a variable with the same name can only be declared once.
-    let fullName=myFirstName+myLastName;
-    document.getElementById('str').innerHTML=fullName;
-    console.log(str);
-
-
-
->>>>>>> 74e50af12a593bc52c4096f84ad192e19a16a805
 }
 //tadsk which is done in freecodecamp
 //shows result on console
@@ -69,9 +53,15 @@ function task() {
   b1 -= 15;
   c1 -= 1;
   console.log(a1, b1, c1);
+
+  let a2 = 5;
+let b2 = 12;
+let c2 = 4.6;
+
+// Only change code below this line
+a2 *= 5;
+b2 *= 3;
+c2 *= 10;
+console.log(a2, b2, c2);
 }
-<<<<<<< HEAD
 task();
-=======
-task()
->>>>>>> 74e50af12a593bc52c4096f84ad192e19a16a805
