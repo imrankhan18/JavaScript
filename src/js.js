@@ -144,6 +144,16 @@ const myData1 = [50, 60, 70];
 myData1[0]=45;
 console.log(myData1);
 
+const myArray3 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+  ];
+  
+  const myData2 = myArray3[2][1];
+  console.log(myData2);
+
 }
 
 task();
