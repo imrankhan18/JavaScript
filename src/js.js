@@ -98,5 +98,10 @@ const someAdjective = "imran";
 let str="Learning to code is ";
 str+=someAdjective;
 console.log(str);
+
+let lastNameLength;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
+console.log(lastNameLength);
 }
 task();
