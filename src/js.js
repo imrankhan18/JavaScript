@@ -224,3 +224,13 @@ function fun2() {//global scope and functions
   console.log(output);
 }
 
+function myLocalScope() {// local scope and functions
+    // Only change code below this line
+    var myVar = "Hello"; 
+    console.log('inside myLocalScope', myVar);
+  }
+  myLocalScope();
+  
+  // Run and check the console
+  // myVar is not defined outside of myLocalScope
+  console.log('outside myLocalScope', myVar);
