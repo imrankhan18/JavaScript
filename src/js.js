@@ -93,5 +93,10 @@ console.log(myStr4);
 const myName1 = "My name is";
 const myStr5 = myName1+ " and " + "I am well";
 console.log(myName1,myStr5);
+
+const someAdjective = "imran";
+let str="Learning to code is ";
+str+=someAdjective;
+console.log(str);
 }
 task();
