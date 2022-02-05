@@ -135,6 +135,10 @@ console.log(wordBlanks);
 
 const myArray = [["IK"],21];
 console.log(myArray);
+
+const myArray2 = [50, 60, 70];
+var myData=myArray2[0];
+console.log(myArray2);
 }
 
 task();
