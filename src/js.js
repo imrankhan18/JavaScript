@@ -4,5 +4,6 @@ function javaS() {
     var myName;
     myName=7;
     var b;
+    b=myName;
 
 }
