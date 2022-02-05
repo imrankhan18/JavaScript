@@ -34,6 +34,9 @@ function task(){
     const product = 2.0 * 2.5;
     console.log(product);
 
+    const quotient1 = 4.4 / 2.0;
+    console.log(quotient1);
+
 
 
 }
