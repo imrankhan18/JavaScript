@@ -77,5 +77,8 @@ console.log(a3,b3,c3);
 
 const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 console.log(myStr)
+
+const myStr1 = '<a href="http://www.example.com" target="_blank">Link</a>';
+console.log(myStr1)
 }
 task();
