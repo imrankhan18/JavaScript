@@ -174,6 +174,7 @@ console.log(myArr4);
 var myList = [["Banana", 3], ["Apple", 4], ["Orange", 5], ["Peach", 6], ["Pineaple", 7]];
 console.log(myList);
 
+
 function reusableFunction(){
     str="Hi World";
     console.log()
@@ -196,3 +197,8 @@ function reusableFunction(){
     console.log(a + b);
   }
   functionWithArgs(10, 5);
+
+  function timesFive(num3){
+    num3=num3*5;
+    return num3;
+    }
