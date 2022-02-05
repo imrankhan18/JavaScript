@@ -31,6 +31,9 @@ function task(){
     const myDecimal = 5.7;
     console.log(myDecimal);
 
+    const product = 2.0 * 2.5;
+    console.log(product);
+
 
 
 }
