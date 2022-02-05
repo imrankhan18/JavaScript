@@ -154,6 +154,10 @@ const myArray3 = [
   const myData2 = myArray3[2][1];
   console.log(myData2);
 
+  const myArr1 = [["John", 23], ["cat", 2]];
+myArr1.push(["dog",3]);
+console.log(myArr1);
+
 }
 
 task();
