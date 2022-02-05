@@ -7,7 +7,8 @@ function javaS() {
     var myFirstName=('Imran')
     var myLastName=('Khan')
     var fullName=myFirstName+myLastName;
-    DocumentTimeline.getElementById('str').innerHTML=fullName;
+    document.getElementById('str').innerHTML=fullName;
+    console.log(str);
 
 
 
