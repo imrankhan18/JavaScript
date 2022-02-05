@@ -6,7 +6,8 @@ function javaS() {
     document.getElementById('result').innerHTML=multiply;
     var myFirstName=('Imran')
     var myLastName=('Khan')
-    DocumentTimeline.getElementById('result').innerHTML=''
+    var fullName=myFirstName+myLastName;
+    DocumentTimeline.getElementById('str').innerHTML=fullName;
 
 
 
