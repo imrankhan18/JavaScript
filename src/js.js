@@ -89,5 +89,9 @@ console.log(myStr3);
 let myStr4="This is the first sentence.";
 myStr4+=" This is second sentence."
 console.log(myStr4);
+
+const myName1 = "My name is";
+const myStr5 = myName1+ " and " + "I am well";
+console.log(myName1,myStr5);
 }
 task();
