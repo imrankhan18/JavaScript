@@ -14,10 +14,11 @@ function javaS() {
 
 }
 //tadsk which is done in freecodecamp
+//shows result on console
 function task(){
   
-    const sub = 45- 33;
-    document.getElementById(sub);
-    console.log(sub);
+    const mul = 45* 33;
+    document.getElementById(mul);
+    console.log(mul);
 }
 task()
