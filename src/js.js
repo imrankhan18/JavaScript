@@ -133,7 +133,8 @@ const myAdverb = "quickly";
 const wordBlanks = "My " + myNoun + " is " + myAdjective + " and " + myVerb + " " + myAdverb + "!";
 console.log(wordBlanks);
 
-
+const myArray = [["IK"],21];
+console.log(myArray);
 }
 
 task();
