@@ -63,5 +63,16 @@ a2 *= 5;
 b2 *= 3;
 c2 *= 10;
 console.log(a2, b2, c2);
+
+let a3 = 48;
+let b3 = 108;
+let c3 = 33;
+
+// Only change code below this line
+a3 /= 12;
+b3 /=  4;
+c3 /=  11;
+
+console.log(a3,b3,c3);
 }
 task();
