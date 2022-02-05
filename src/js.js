@@ -1,9 +1,10 @@
 function javaS() {
-    document.getElementById("result").innerHTML="Print"+result ;
+    //document.getElementById("result").innerHTML="Print"+result ;
     console.log("result"+result);
-    var myName;
-    myName=7;
-    var b;
-    b=myName;
+    let num=document.getElementById('value').value;
+    var multiply= n*10;
+    document.getElementById('result').innerHTML=multiply
+
+
 
 }
