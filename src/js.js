@@ -80,5 +80,8 @@ console.log(myStr)
 
 const myStr1 = '<a href="http://www.example.com" target="_blank">Link</a>';
 console.log(myStr1)
+
+var myStr2="Firstline\n\SecondLine\rThirdline";
+console.log(myStr2);
 }
 task();
