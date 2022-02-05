@@ -124,6 +124,16 @@ const lastName2 = "Lovelace";
 lirstLetterOfLastName1 = lastName2[lastName2.length -2];
 console.log(lirstLetterOfLastName1);
 
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "My " + myNoun + " is " + myAdjective + " and " + myVerb + " " + myAdverb + "!";
+console.log(wordBlanks);
+
+
 }
 
 task();
