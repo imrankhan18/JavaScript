@@ -103,5 +103,13 @@ let lastNameLength;
 const lastName = "Lovelace";
 lastNameLength = lastName.length;
 console.log(lastNameLength);
+
+let firstLetterOfLastName = "";
+const lastName1 = "Lovelace";
+firstLetterOfLastName = lastName1[0];
+console.log(firstLetterOfLastName);
+
+
 }
+
 task();
